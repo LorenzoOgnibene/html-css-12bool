@@ -1,0 +1,26 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+[class^="col"]{
+    height: 100%;
+    padding: 1rem;
+    background-color: #006cfa;
+    border: 1px solid white;
+    color: white;
+}
+
+
+.nested [class^="col"]{
+    background-color: #01e165;
+    border: 2px solid #006cfa;
+}
+
+.space{
+    margin-top: 1rem;
+}
